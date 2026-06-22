@@ -1,6 +1,9 @@
 ﻿namespace LegalManagementSaaS.Domain.Enums
 {
-    internal class CaseStatus
+    public enum CaseStatus
     {
+        open = 1,
+        InReview = 2,
+        Closed = 3
     }
 }
