@@ -71,7 +71,7 @@ LegalManagementSaaS is a web application for managing legal cases, clients and r
 - Follow the existing code style and include tests for new behavior when applicable.
 
 ## License
-This project is provided under the MIT License — see the LICENSE file for details (if present).
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 ## Contact
 For questions or issues, open an issue on the project's GitHub repository.
