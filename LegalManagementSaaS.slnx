@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="LegalManagementSaaS.Application/LegalManagementSaaS.Application.csproj" />
+  <Project Path="legalmanagementsaas.client/legalmanagementsaas.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="LegalManagementSaaS.Domain/LegalManagementSaaS.Domain.csproj" />
+  <Project Path="LegalManagementSaaS.Infrastructure/LegalManagementSaaS.Infrastructure.csproj" />
+  <Project Path="LegalManagementSaaS.Server/LegalManagementSaaS.Server.csproj" />
+</Solution>
