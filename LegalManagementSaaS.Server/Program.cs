@@ -1,4 +1,7 @@
 
+using LegalManagementSaaS.Application;
+using LegalManagementSaaS.Infrastructure;
+
 namespace LegalManagementSaaS.Server
 {
     public class Program
@@ -12,6 +15,9 @@ namespace LegalManagementSaaS.Server
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+
+            builder.Services.AddApplicationServices();
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
             var app = builder.Build();
 
