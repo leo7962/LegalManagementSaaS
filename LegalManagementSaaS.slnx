@@ -7,4 +7,5 @@
   <Project Path="LegalManagementSaaS.Domain/LegalManagementSaaS.Domain.csproj" />
   <Project Path="LegalManagementSaaS.Infrastructure/LegalManagementSaaS.Infrastructure.csproj" />
   <Project Path="LegalManagementSaaS.Server/LegalManagementSaaS.Server.csproj" />
+  <Project Path="LegalManagementSaaS.Tests/LegalManagementSaaS.Tests.csproj" />
 </Solution>
